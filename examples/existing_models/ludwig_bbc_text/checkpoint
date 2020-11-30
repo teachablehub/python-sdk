@@ -1,0 +1,4 @@
+model_checkpoint_path: "model_weights"
+all_model_checkpoint_paths: "../results/api_experiment_run_1/model/model_weights"
+all_model_checkpoint_paths: "../results/api_experiment_run_1/model/model_weights_progress"
+all_model_checkpoint_paths: "model_weights"

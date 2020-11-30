@@ -1,0 +1,15 @@
+# https://packaging.python.org/tutorials/packaging-projects/#description
+# https://medium.com/nagoya-foundation/uploading-your-own-python-package-to-pypi-python-package-index-6b78e1c9e6d1
+
+#####
+# pip install -U twine wheel setuptools
+# rm -rf dist
+# python setup.py sdist
+# python setup.py bdist_wheel
+# twine check dist/*
+#####
+
+rm -rf ./dist
+python setup.py sdist
+python setup.py bdist_wheel
+twine upload -r pypi dist/*

@@ -1,0 +1,41 @@
+##########################################################################
+#                                                                        #
+#  This script is called when you write the command : "develo update"    #
+#  on project with installed .develo                                     #
+#                                                                        #
+#  This script is a perfect place for logic like:                        #
+#                                                                        #
+#  If you are working on Ruby project with Bundler                       #
+#  | bundle update                                                       #
+#                                                                        #
+#  If you are working on Python project                                  #
+#  | pip freeze |sed -ne 's/==.*//p' |xargs pip install -U --            #
+#                                                                        #
+#  If you are working on PHP project                                     #
+#  | php composer.phar update                                            #
+#                                                                        #
+#  If you want to update you repo and so on ...                          #
+#  | git checkout master                                                 #
+#  | git pull upstream master                                            #
+#  | git submodule foreach --recursive git submodule update --init       #
+#  | git checkout develop                                                #
+#                                                                        #
+#                        And stuff like these :)                         #
+#                                                                        #
+#                                                                        #
+#               More on https://github.com/mignev/develo                 #
+#                                                                        #
+##########################################################################
+
+####
+# Replace these lines of echo code with your meaningful implementation
+
+echo "Hello from:"
+echo "$(pwd)/.develo/${BASH_SOURCE##*/}"
+echo
+echo "Now your ${BASH_SOURCE##*/} script is blank and useless!"
+echo "Hurry up and place your logic there to do something meaningful!"
+echo
+echo "Bye :)"
+
+####

@@ -1,0 +1,30 @@
+##########################################################################
+#                                                                        #
+#  This script is called when you open directory with installed .develo  #
+#  or when you write the command : "develo activate"                     #
+#                                                                        #
+#  This script is a perfect place for logic like:                        #
+#                                                                        #
+#  - "rvm use 1.9.3" if you use RVM for Ruby ...                         #
+#                                                                        #
+#  - "source venv/bin/activate" if you use Python virtualenv.py          #
+#                                                                        #
+#                    And stuff like these :)                             #
+#                                                                        #
+#                                                                        #
+#               More on https://github.com/mignev/develo                 #
+#                                                                        #
+##########################################################################
+
+####
+# Replace these lines of echo code with your meaningful implementation
+
+echo "Hello from:"
+echo "$(pwd)/.develo/${BASH_SOURCE##*/}"
+echo
+echo "Now your ${BASH_SOURCE##*/} script is blank and useless!"
+echo "Hurry up and place your logic there to do something meaningful!"
+echo
+echo "Bye :)"
+
+####

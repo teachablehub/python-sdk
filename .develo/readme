@@ -1,0 +1,26 @@
+##########################################################################
+#                                                                        #
+#  This script is called when you write the command : "develo readme"    #
+#  on project with installed .develo                                     #
+#                                                                        #
+#  This file is the perfect plase for some initial instructions to       #
+#  your co-workers and probably will be very helpful for you             #
+#  few months later :)                                                   #
+#                                                                        #
+#                        And stuff like these :)                         #
+#                                                                        #
+#                                                                        #
+#               More on https://github.com/mignev/develo                 #
+#                                                                        #
+##########################################################################
+
+
+cat << EOF
+
+  Here you can give some
+  useful information to your
+  coworkers!
+
+  :)
+
+EOF

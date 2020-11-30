@@ -1,0 +1,35 @@
+##########################################################################
+#                                                                        #
+#  This script is called when you write the command : "develo db"        #
+#  on project with installed .develo                                     #
+#                                                                        #
+#  This script is a perfect place for logic like:                        #
+#                                                                        #
+#  If you are working on Ruby on Rails project                           #
+#  | rails dbconsole                                                     #
+#                                                                        #
+#  If you are working on Django project                                  #
+#  | django-admin.py dbshell                                             #
+#                                                                        #
+#  If you are working on some PHP project                                #
+#  | mysql -h 127.0.0.1 -P 3306 -u<username> -p<password>                #
+#                                                                        #
+#                        And stuff like these :)                         #
+#                                                                        #
+#                                                                        #
+#               More on https://github.com/mignev/develo                 #
+#                                                                        #
+##########################################################################
+
+####
+# Replace these lines of echo code with your meaningful implementation
+
+echo "Hello from:"
+echo "$(pwd)/.develo/${BASH_SOURCE##*/}"
+echo
+echo "Now your ${BASH_SOURCE##*/} script is blank and useless!"
+echo "Hurry up and place your logic there to do something meaningful!"
+echo
+echo "Bye :)"
+
+####
